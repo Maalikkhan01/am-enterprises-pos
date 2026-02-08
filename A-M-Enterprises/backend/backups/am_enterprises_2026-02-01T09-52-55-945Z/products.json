@@ -1,0 +1,34 @@
+[
+  {
+    "_id": "697e3825b2235664d6370035",
+    "name": "DIRECT TEST PRODUCT",
+    "baseUnit": "piece",
+    "stock": 0,
+    "minStockAlert": 10,
+    "defaultPrices": [
+      {
+        "unit": "piece",
+        "price": 10
+      }
+    ],
+    "isActive": true
+  },
+  {
+    "_id": "697e498d7898d47f06d9d97a",
+    "name": "Sugar",
+    "baseUnit": "kg",
+    "stock": 100,
+    "minStockAlert": 0,
+    "packagingLevels": [],
+    "defaultPrices": [
+      {
+        "unit": "kg",
+        "price": 45
+      }
+    ],
+    "isActive": true,
+    "createdAt": "2026-01-31T18:27:25.923Z",
+    "updatedAt": "2026-01-31T18:27:25.923Z",
+    "__v": 0
+  }
+]

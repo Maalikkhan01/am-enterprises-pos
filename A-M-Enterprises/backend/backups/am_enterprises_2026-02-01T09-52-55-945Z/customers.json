@@ -1,0 +1,13 @@
+[
+  {
+    "_id": "697eeff018c60f4b8e6b67e8",
+    "name": "Goldy",
+    "phone": "9999999999",
+    "dueAmount": 0,
+    "totalDue": 0,
+    "isActive": true,
+    "createdAt": "2026-02-01T06:17:20.622Z",
+    "updatedAt": "2026-02-01T06:17:20.622Z",
+    "__v": 0
+  }
+]

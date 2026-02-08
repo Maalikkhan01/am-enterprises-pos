@@ -1,0 +1,13 @@
+[
+  {
+    "_id": "697e101881fd189b048697da",
+    "name": "Shop Owner",
+    "email": "admin@am.com",
+    "password": "$2b$10$RJlk3T2s04lTkHxfkbGnCe25RXXvsHsQUEh6fYe5aozT/wm3RN9hW",
+    "role": "owner",
+    "isActive": true,
+    "createdAt": "2026-01-31T14:22:16.831Z",
+    "updatedAt": "2026-01-31T14:22:16.831Z",
+    "__v": 0
+  }
+]

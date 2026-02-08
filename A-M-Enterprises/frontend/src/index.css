@@ -1,0 +1,118 @@
+:root {
+  font-family: "Manrope", "Noto Sans", "Segoe UI", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: #111;
+  background-color: #f6f7fb;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a {
+  font-weight: 500;
+  color: #111;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #111;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  color: #111;
+  background: #f6f7fb;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  padding: 0 16px;
+  height: 44px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: inherit;
+  background-color: #111;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid #111;
+  outline-offset: 2px;
+}
+
+input,
+select,
+textarea {
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  padding: 10px 12px;
+  font-size: 14px;
+  font-family: inherit;
+  color: #111;
+  background: #fff;
+  outline: none;
+  min-height: 44px;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #9ca3af;
+  opacity: 1;
+}
+
+@media print {
+  body * {
+    visibility: hidden;
+  }
+
+  div {
+    visibility: visible;
+  }
+
+  button {
+    display: none;
+  }
+}
+
+@media print {
+  body * {
+    visibility: hidden;
+  }
+
+  #invoice-print,
+  #invoice-print * {
+    visibility: visible;
+  }
+
+  #invoice-print {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+
+  button {
+    display: none;
+  }
+}
